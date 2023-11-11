@@ -60,6 +60,13 @@ a {
     color: var(--main-bg-color);
 }
 
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
 /* header */
 
 .top-nav {
@@ -165,6 +172,8 @@ form input[type="submit"] {
     padding: 4px 19px;
     display: flex;
     align-items: center;
+    font-size: 17px;
+    font-weight: 700;
 }
 
 .filter>a:hover,
