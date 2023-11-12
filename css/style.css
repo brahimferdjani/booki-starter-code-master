@@ -241,7 +241,7 @@ a:focus {
     padding: 8px 15px 0;
 }
 
-.hebergements-card .frame1 {
+.hebergements-card .frame-heberge {
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -305,12 +305,12 @@ a:focus {
     margin-bottom: 30px;
 }
 
-.activite .frame2 {
+.activite .frame-activite {
     display: flex;
     gap: 30px;
 }
 
-.frame2 .card {
+.frame-activite .card {
     height: 439px;
     width: 298px;
     padding: 0;
@@ -319,14 +319,31 @@ a:focus {
     gap: 0;
 }
 
-.frame2 .card img {
+.frame-activite .card img {
     width: 100%;
     height: 380px;
     border-radius: 20px 20px 0 0;
 }
 
-.frame2 .card .card-title {
+.frame-activite .card .card-title {
     padding: 20px 19px;
+}
+
+/* Footer */
+
+.frame-footer {
+    display: flex;
+}
+
+.frame-footer .card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0;
+    gap: 15px;
+    width: 447px;
+    background-color: var(--main-bg-color);
+    filter: none;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
