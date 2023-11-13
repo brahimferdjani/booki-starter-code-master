@@ -86,18 +86,17 @@ p {
     justify-content: space-between;
 }
 
-.liens a {
+.liens a, .liens a:visited {
     position: relative;
     padding-top: 14px;
+    background-color: white;
 }
 
-.liens a:hover,
-a:focus {
+.liens a:hover {
     color: var(--main-color);
 }
 
-.liens a:hover::after,
-a:focus::after {
+.liens a:hover::after {
     content: "";
     position: absolute;
     left: 0;
