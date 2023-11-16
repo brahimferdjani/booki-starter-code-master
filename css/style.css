@@ -166,16 +166,20 @@ form .loupe {
 
 .filterbar>p {
     margin: 0;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .filter a {
     border-radius: 25px;
     border: 2px solid #d9d9d9;
-    column-gap: 15px;
-    padding: 10px 19px;
+    column-gap: 10px;
+    padding: 10px 15px;
     display: flex;
     align-items: center;
     font-size: 1em;
+    font-weight: 700;
+    font-size: 17px;
 }
 
 .filter a:hover,
@@ -381,6 +385,10 @@ a:focus {
         align-items: flex-start;
     }
 
+    .filter a {
+        font-size: 16px;
+    }
+
     .frame-activite .card img {
         height: 200px;
     }
@@ -421,6 +429,7 @@ a:focus {
 @media (max-width: 767.98px) {
 
     /* ... */
+
     body {
         margin: 0;
     }
@@ -448,7 +457,8 @@ a:focus {
     }
 
     .liens a {
-        padding: 0 50% 14px;
+        padding: 0 0 14px;
+        text-align: center;
     }
 
     .liens a:hover::after {
@@ -458,11 +468,6 @@ a:focus {
 
     .infogroup {
         padding: 0 20px;
-    }
-
-    form>svg {
-        width: 10%;
-        height: auto;
     }
 
     form input[type="submit"] {
@@ -488,6 +493,10 @@ a:focus {
         grid-template-columns: repeat(2,1fr);
         row-gap: 20px;
         width: 100%;
+    }
+
+    .filter a {
+        font-size: 14px;
     }
 
     .hebergements-and-populaires .hebergements {
