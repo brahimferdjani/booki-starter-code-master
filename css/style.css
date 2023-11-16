@@ -497,6 +497,7 @@ a:focus {
 
     .filter a {
         font-size: 14px;
+        padding: 10px 12px;
     }
 
     .hebergements-and-populaires .hebergements {
