@@ -481,10 +481,6 @@ a:focus {
         bottom:2px;
     }
 
-    .infobar>svg {
-        width: 28px;
-    }
-
     .infogroup {
         padding: 0 20px;
     }
