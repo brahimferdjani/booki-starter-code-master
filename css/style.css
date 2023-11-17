@@ -519,7 +519,15 @@ a:focus {
     }
 
     .section-title {
+        font-size: 22px;
+    }
+
+    .card-title {
         font-size: 16px;
+    }
+
+    .card-subtitle {
+        font-size: 14px;
     }
 
     .hebergements-and-populaires .hebergements {
@@ -552,6 +560,10 @@ a:focus {
         grid-template-rows: repeat(3,1fr);
         row-gap: 15px;
         margin-bottom: 15px;
+    }
+
+    .hebergements-card + h3 {
+        font-size: 18px;
     }
 
     .activite .frame-activite {
