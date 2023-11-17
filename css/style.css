@@ -134,8 +134,8 @@ form> svg {
 form input[type="search"] {
     border: solid var(--main-bg-color);
     background-color: white;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     color: black;
     text-align: center;
     font-size: 1.125em;
