@@ -138,6 +138,7 @@ form input[type="search"] {
     border-bottom-left-radius: 0;
     color: black;
     text-align: left;
+    padding-left: 30px;
     font-size: 1.125em;
     font-weight: 700;
     outline: none;
