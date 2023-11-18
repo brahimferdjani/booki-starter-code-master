@@ -125,8 +125,12 @@ header form {
     margin-bottom: 35px;
 }
 
-form> svg {
+form> .fa-location-dot {
     background-color: var(--main-bg-color);
+    min-width: 50px;
+    padding: 20px;
+    font-size: large;
+    color: black;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -162,7 +166,7 @@ form input[type="submit"] {
     font-weight: 700;
 }
 
-form .loupe {
+form .fa-magnifying-glass {
     display: none;
 }
 
@@ -203,6 +207,10 @@ a:focus {
     column-gap: 15px;
 }
 
+.filter > .fa-solid {
+    font-size: x-large;
+}
+
 .infobar {
     display: flex;
     align-items: center;
@@ -210,11 +218,13 @@ a:focus {
     margin-bottom: 35px;
 }
 
-.infobar>svg {
+.infobar>.fa-info {
     border: 1px solid #d9d9d9;
     border-radius: 50px;
     height: 25px;
     min-width: 25px;
+    text-align: center;
+    padding: 3px;
 }
 
 .infobar p {
@@ -485,6 +495,10 @@ a:focus {
         bottom:2px;
     }
 
+    .filter > a> .fa-solid {
+        font-size: 1.5em;
+    }
+
     .infogroup {
         padding: 0 20px;
     }
@@ -493,11 +507,20 @@ a:focus {
         display: none;
     }
 
-    form .loupe {
+    form input[type="search"] {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    form .fa-magnifying-glass {
         display: block;
+        color: white;
+        font-size: large;
         position: absolute;
         right: 20px;
-        padding: 15px 16px;
+        top: 2;
+        padding: 17px 18px;
+        font-size: 1.3em;
         border-radius: 15px;
         border: 1px solid var(--main-color);
         background: var(--main-color);
@@ -505,7 +528,7 @@ a:focus {
     }
 
     form input[type="search"] {
-        width: 100%;
+        width: 90%;
     }
 
     .filter {
