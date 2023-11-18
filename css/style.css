@@ -207,8 +207,8 @@ a:focus {
     column-gap: 15px;
 }
 
-.filter > .fa-solid {
-    font-size: x-large;
+.filter > a > .fa-solid {
+    font-size: 1.2em;
 }
 
 .infobar {
