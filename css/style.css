@@ -166,6 +166,10 @@ form input[type="submit"] {
     font-weight: 700;
 }
 
+form input::placeholder {
+    color: black;
+}
+
 form .fa-magnifying-glass {
     display: none;
 }
@@ -336,7 +340,7 @@ a:focus {
     margin-bottom: 5px;
 }
 
-/* Actvite */
+/******* Actvite *******/
 
 .activite {
     padding: 30px;
@@ -382,7 +386,7 @@ a:focus {
     justify-content: center;
 }
 
-/* Footer */
+/******** Footer *********/
 
 .frame-footer {
     display: grid;
@@ -518,7 +522,7 @@ a:focus {
         font-size: large;
         position: absolute;
         right: 20px;
-        top: 2;
+        top: 11.85em;
         padding: 17px 18px;
         font-size: 1.3em;
         border-radius: 15px;
